@@ -30,51 +30,7 @@ struct LoginPage: View {
 }
 
 
-struct LongButton : View {
-	var text  = "Button Text"
-	var backgroundColor = Color.appBlue
-	var textColor = Color.white
-	var body : some View {
-		Button(action:{}, label:{
-			Text(text)
-				.fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
-				.font(.system(size:18))
-				.padding()
-				.frame(maxWidth:.infinity)
-				.background(backgroundColor)
-				.foregroundColor(textColor)
-		})
-		
-	}
-}
 
-struct TextBox : View {
-	@Binding var text: String
-	var  placeholder : String  = "Text"
-	var  secure : Bool = false
-	var body : some View {
-		if secure {
-			SecureField(placeholder, text: $text)
-				.padding()
-				.overlay(
-					Rectangle()
-						.stroke(lineWidth:1)
-						.foregroundColor(Color.appBlue)
-				)
-				.foregroundColor(Color.appBlue)
-		}else{
-			TextField(placeholder, text: $text)
-				.padding()
-				.overlay(
-					Rectangle()
-						.stroke(lineWidth:1)
-						.foregroundColor(Color.appBlue)
-				)
-				.foregroundColor(Color.appBlue)
-		}
-	}
-	
-}
 
 struct LoginPage_Previews: PreviewProvider {
 	static var previews: some View {

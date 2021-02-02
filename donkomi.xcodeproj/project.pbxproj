@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9E2097BC25C937DC0055D374 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2097BB25C937DC0055D374 /* LoginPage.swift */; };
+		9E2097C225C965300055D374 /* RegistrationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2097C125C965300055D374 /* RegistrationPage.swift */; };
+		9E2097C625C9660E0055D374 /* TextBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2097C525C9660E0055D374 /* TextBox.swift */; };
+		9E2097CA25C966610055D374 /* LongButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2097C925C966610055D374 /* LongButton.swift */; };
 		9E39568925C8B25600EA6365 /* donkomiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E39567625C8B25400EA6365 /* donkomiApp.swift */; };
 		9E39568A25C8B25600EA6365 /* donkomiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E39567625C8B25400EA6365 /* donkomiApp.swift */; };
 		9E39568B25C8B25600EA6365 /* AppIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E39567725C8B25400EA6365 /* AppIndex.swift */; };
@@ -21,6 +24,9 @@
 
 /* Begin PBXFileReference section */
 		9E2097BB25C937DC0055D374 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		9E2097C125C965300055D374 /* RegistrationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationPage.swift; sourceTree = "<group>"; };
+		9E2097C525C9660E0055D374 /* TextBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBox.swift; sourceTree = "<group>"; };
+		9E2097C925C966610055D374 /* LongButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongButton.swift; sourceTree = "<group>"; };
 		9E39567625C8B25400EA6365 /* donkomiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = donkomiApp.swift; sourceTree = "<group>"; };
 		9E39567725C8B25400EA6365 /* AppIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIndex.swift; sourceTree = "<group>"; };
 		9E39567825C8B25600EA6365 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				9E2097BB25C937DC0055D374 /* LoginPage.swift */,
+				9E2097C125C965300055D374 /* RegistrationPage.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -131,6 +138,8 @@
 		9E3956A125C8B45700EA6365 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				9E2097C525C9660E0055D374 /* TextBox.swift */,
+				9E2097C925C966610055D374 /* LongButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -240,11 +249,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E3956A425C9318D00EA6365 /* SplashScreen.swift in Sources */,
+				9E2097CA25C966610055D374 /* LongButton.swift in Sources */,
 				9E39569B25C8B35000EA6365 /* Color-Ext.swift in Sources */,
 				9E3956AA25C931F400EA6365 /* Image-Ext.swift in Sources */,
 				9E39568B25C8B25600EA6365 /* AppIndex.swift in Sources */,
 				9E2097BC25C937DC0055D374 /* LoginPage.swift in Sources */,
 				9E39568925C8B25600EA6365 /* donkomiApp.swift in Sources */,
+				9E2097C625C9660E0055D374 /* TextBox.swift in Sources */,
+				9E2097C225C965300055D374 /* RegistrationPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
