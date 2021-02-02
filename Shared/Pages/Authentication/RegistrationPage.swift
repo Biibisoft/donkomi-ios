@@ -2,13 +2,32 @@
 import SwiftUI
 
 struct RegistrationPage: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+	@State var text : String = ""
+	var body: some View {
+		VStack{
+			Spacer()
+				.frame(height:100)
+			VStack(alignment:.leading){
+				Text("Create Your Account With email and password")
+					.padding(.bottom)
+				TextBox(text: $text, placeholder: "Email")
+				TextBox(text: $text, placeholder: "Preferred Name")
+				TextBox(text: $text, placeholder: "Phone Number")
+				TextBox(text: $text, placeholder: "Password")
+				TextBox(text: $text, placeholder: "Confirm Password")
+				
+			}.padding()
+			Spacer()
+			VStack{
+				LongButton(text:"REGISTER")
+				LongButton(text:"WITH GOOGLE", backgroundColor: Color.appRed)
+			}.padding()
+		}.navigationTitle("Sign In Instead")
+	}
 }
 
 struct RegistrationPage_Previews: PreviewProvider {
-    static var previews: some View {
-        RegistrationPage()
-    }
+	static var previews: some View {
+		RegistrationPage()
+	}
 }
