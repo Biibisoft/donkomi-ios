@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E2097BC25C937DC0055D374 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2097BB25C937DC0055D374 /* LoginPage.swift */; };
 		9E39568925C8B25600EA6365 /* donkomiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E39567625C8B25400EA6365 /* donkomiApp.swift */; };
 		9E39568A25C8B25600EA6365 /* donkomiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E39567625C8B25400EA6365 /* donkomiApp.swift */; };
-		9E39568B25C8B25600EA6365 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E39567725C8B25400EA6365 /* ContentView.swift */; };
-		9E39568C25C8B25600EA6365 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E39567725C8B25400EA6365 /* ContentView.swift */; };
+		9E39568B25C8B25600EA6365 /* AppIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E39567725C8B25400EA6365 /* AppIndex.swift */; };
+		9E39568C25C8B25600EA6365 /* AppIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E39567725C8B25400EA6365 /* AppIndex.swift */; };
 		9E39568D25C8B25600EA6365 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E39567825C8B25600EA6365 /* Assets.xcassets */; };
 		9E39568E25C8B25600EA6365 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E39567825C8B25600EA6365 /* Assets.xcassets */; };
+		9E39569B25C8B35000EA6365 /* Color-Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E39569A25C8B35000EA6365 /* Color-Ext.swift */; };
+		9E3956A425C9318D00EA6365 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3956A325C9318D00EA6365 /* SplashScreen.swift */; };
+		9E3956AA25C931F400EA6365 /* Image-Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3956A925C931F400EA6365 /* Image-Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E2097BB25C937DC0055D374 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
 		9E39567625C8B25400EA6365 /* donkomiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = donkomiApp.swift; sourceTree = "<group>"; };
-		9E39567725C8B25400EA6365 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9E39567725C8B25400EA6365 /* AppIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIndex.swift; sourceTree = "<group>"; };
 		9E39567825C8B25600EA6365 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E39567D25C8B25600EA6365 /* donkomi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = donkomi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E39568025C8B25600EA6365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E39568525C8B25600EA6365 /* donkomi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = donkomi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E39568725C8B25600EA6365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E39568825C8B25600EA6365 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		9E39569A25C8B35000EA6365 /* Color-Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Ext.swift"; sourceTree = "<group>"; };
+		9E3956A325C9318D00EA6365 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		9E3956A925C931F400EA6365 /* Image-Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image-Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +52,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E2097BA25C937CF0055D374 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				9E2097BB25C937DC0055D374 /* LoginPage.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
 		9E39567025C8B25400EA6365 = {
 			isa = PBXGroup;
 			children = (
@@ -57,8 +73,12 @@
 		9E39567525C8B25400EA6365 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				9E3956A225C8B46700EA6365 /* Utitlities */,
+				9E3956A125C8B45700EA6365 /* Components */,
+				9E3956A025C8B44E00EA6365 /* Pages */,
+				9E39569925C8B33A00EA6365 /* Extensions */,
 				9E39567625C8B25400EA6365 /* donkomiApp.swift */,
-				9E39567725C8B25400EA6365 /* ContentView.swift */,
+				9E39567725C8B25400EA6365 /* AppIndex.swift */,
 				9E39567825C8B25600EA6365 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -88,6 +108,38 @@
 				9E39568825C8B25600EA6365 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		9E39569925C8B33A00EA6365 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9E39569A25C8B35000EA6365 /* Color-Ext.swift */,
+				9E3956A925C931F400EA6365 /* Image-Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9E3956A025C8B44E00EA6365 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				9E2097BA25C937CF0055D374 /* Authentication */,
+				9E3956A325C9318D00EA6365 /* SplashScreen.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		9E3956A125C8B45700EA6365 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		9E3956A225C8B46700EA6365 /* Utitlities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utitlities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,7 +239,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E39568B25C8B25600EA6365 /* ContentView.swift in Sources */,
+				9E3956A425C9318D00EA6365 /* SplashScreen.swift in Sources */,
+				9E39569B25C8B35000EA6365 /* Color-Ext.swift in Sources */,
+				9E3956AA25C931F400EA6365 /* Image-Ext.swift in Sources */,
+				9E39568B25C8B25600EA6365 /* AppIndex.swift in Sources */,
+				9E2097BC25C937DC0055D374 /* LoginPage.swift in Sources */,
 				9E39568925C8B25600EA6365 /* donkomiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,7 +252,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E39568C25C8B25600EA6365 /* ContentView.swift in Sources */,
+				9E39568C25C8B25600EA6365 /* AppIndex.swift in Sources */,
 				9E39568A25C8B25600EA6365 /* donkomiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

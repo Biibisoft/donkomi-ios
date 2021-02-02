@@ -11,7 +11,7 @@ import SwiftUI
 struct donkomiApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppIndex()
         }
     }
 }
