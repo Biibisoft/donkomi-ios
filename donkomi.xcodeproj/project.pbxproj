@@ -27,6 +27,7 @@
 		9E76C2CC25CAE45100953D94 /* Konstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C2CB25CAE45100953D94 /* Konstants.swift */; };
 		9E76C2D025CAE89E00953D94 /* OrderProcessCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C2CF25CAE89E00953D94 /* OrderProcessCard.swift */; };
 		9E76C2D425CAF22B00953D94 /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C2D325CAF22B00953D94 /* ProductCard.swift */; };
+		9E76C2D825CB022B00953D94 /* IconButtonCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C2D725CB022B00953D94 /* IconButtonCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		9E76C2CB25CAE45100953D94 /* Konstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Konstants.swift; sourceTree = "<group>"; };
 		9E76C2CF25CAE89E00953D94 /* OrderProcessCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderProcessCard.swift; sourceTree = "<group>"; };
 		9E76C2D325CAF22B00953D94 /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
+		9E76C2D725CB022B00953D94 /* IconButtonCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButtonCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 				9E76C2C725CAD57000953D94 /* ProductListItem.swift */,
 				9E76C2CF25CAE89E00953D94 /* OrderProcessCard.swift */,
 				9E76C2D325CAF22B00953D94 /* ProductCard.swift */,
+				9E76C2D725CB022B00953D94 /* IconButtonCard.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 				9E2097BC25C937DC0055D374 /* LoginPage.swift in Sources */,
 				9E76C2BE25CA974700953D94 /* ChooseUniversity.swift in Sources */,
 				9E76C2D025CAE89E00953D94 /* OrderProcessCard.swift in Sources */,
+				9E76C2D825CB022B00953D94 /* IconButtonCard.swift in Sources */,
 				9E39568925C8B25600EA6365 /* donkomiApp.swift in Sources */,
 				9E2097C625C9660E0055D374 /* TextBox.swift in Sources */,
 				9E2097C225C965300055D374 /* RegistrationPage.swift in Sources */,

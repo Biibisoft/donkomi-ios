@@ -27,17 +27,6 @@ struct ProductCard: View {
 						.font(.title3)
 						.fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
 						.foregroundColor(.appRed)
-//					HStack{
-//						Text("Athena's Thrift Shop")
-//							.fontWeight(.semibold)
-//							.font(.caption)
-//						Spacer()
-//						Text("Rs 3,221")
-//							.font(.title3)
-//							.fontWeight(.bold)
-//							.foregroundColor(.appRed)
-//							.padding(.trailing)
-//					}
 				}
 				
 			}.frame(maxWidth:.infinity,alignment: .leading)
