@@ -22,6 +22,7 @@
 		9E3956AA25C931F400EA6365 /* Image-Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3956A925C931F400EA6365 /* Image-Ext.swift */; };
 		9E76C2B625CA7D6800953D94 /* DropdownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C2B525CA7D6800953D94 /* DropdownMenu.swift */; };
 		9E76C2BE25CA974700953D94 /* ChooseUniversity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C2BD25CA974700953D94 /* ChooseUniversity.swift */; };
+		9E76C2C425CACAAB00953D94 /* CampaignCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C2C325CACAAB00953D94 /* CampaignCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		9E3956A925C931F400EA6365 /* Image-Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image-Ext.swift"; sourceTree = "<group>"; };
 		9E76C2B525CA7D6800953D94 /* DropdownMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownMenu.swift; sourceTree = "<group>"; };
 		9E76C2BD25CA974700953D94 /* ChooseUniversity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseUniversity.swift; sourceTree = "<group>"; };
+		9E76C2C325CACAAB00953D94 /* CampaignCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 				9E2097C525C9660E0055D374 /* TextBox.swift */,
 				9E2097C925C966610055D374 /* LongButton.swift */,
 				9E76C2B525CA7D6800953D94 /* DropdownMenu.swift */,
+				9E76C2C325CACAAB00953D94 /* CampaignCard.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 				9E3956A425C9318D00EA6365 /* SplashScreen.swift in Sources */,
 				9E76C2B625CA7D6800953D94 /* DropdownMenu.swift in Sources */,
 				9E2097CA25C966610055D374 /* LongButton.swift in Sources */,
+				9E76C2C425CACAAB00953D94 /* CampaignCard.swift in Sources */,
 				9E39569B25C8B35000EA6365 /* Color-Ext.swift in Sources */,
 				9E3956AA25C931F400EA6365 /* Image-Ext.swift in Sources */,
 				9E39568B25C8B25600EA6365 /* AppIndex.swift in Sources */,
