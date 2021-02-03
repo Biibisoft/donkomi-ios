@@ -15,12 +15,13 @@ struct RegistrationPage: View {
 				TextBox(text: $text, placeholder: "Phone Number")
 				TextBox(text: $text, placeholder: "Password")
 				TextBox(text: $text, placeholder: "Confirm Password")
+				DropdownMenu()
 				
 			}.padding()
 			Spacer()
 			VStack{
 				LongButton(text:"REGISTER")
-				LongButton(text:"WITH GOOGLE", backgroundColor: Color.appRed)
+				LongButton(text:"USE GOOGLE", backgroundColor: Color.appRed)
 			}.padding()
 		}.navigationTitle("Sign In Instead")
 	}
