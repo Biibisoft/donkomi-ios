@@ -23,6 +23,8 @@
 		9E76C2B625CA7D6800953D94 /* DropdownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C2B525CA7D6800953D94 /* DropdownMenu.swift */; };
 		9E76C2BE25CA974700953D94 /* ChooseUniversity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C2BD25CA974700953D94 /* ChooseUniversity.swift */; };
 		9E76C2C425CACAAB00953D94 /* CampaignCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C2C325CACAAB00953D94 /* CampaignCard.swift */; };
+		9E76C2C825CAD57000953D94 /* ProductListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C2C725CAD57000953D94 /* ProductListItem.swift */; };
+		9E76C2CC25CAE45100953D94 /* Konstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C2CB25CAE45100953D94 /* Konstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		9E76C2B525CA7D6800953D94 /* DropdownMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownMenu.swift; sourceTree = "<group>"; };
 		9E76C2BD25CA974700953D94 /* ChooseUniversity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseUniversity.swift; sourceTree = "<group>"; };
 		9E76C2C325CACAAB00953D94 /* CampaignCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignCard.swift; sourceTree = "<group>"; };
+		9E76C2C725CAD57000953D94 /* ProductListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListItem.swift; sourceTree = "<group>"; };
+		9E76C2CB25CAE45100953D94 /* Konstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Konstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +153,7 @@
 				9E2097C925C966610055D374 /* LongButton.swift */,
 				9E76C2B525CA7D6800953D94 /* DropdownMenu.swift */,
 				9E76C2C325CACAAB00953D94 /* CampaignCard.swift */,
+				9E76C2C725CAD57000953D94 /* ProductListItem.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -156,6 +161,7 @@
 		9E3956A225C8B46700EA6365 /* Utitlities */ = {
 			isa = PBXGroup;
 			children = (
+				9E76C2CB25CAE45100953D94 /* Konstants.swift */,
 			);
 			path = Utitlities;
 			sourceTree = "<group>";
@@ -264,11 +270,13 @@
 				9E39569B25C8B35000EA6365 /* Color-Ext.swift in Sources */,
 				9E3956AA25C931F400EA6365 /* Image-Ext.swift in Sources */,
 				9E39568B25C8B25600EA6365 /* AppIndex.swift in Sources */,
+				9E76C2C825CAD57000953D94 /* ProductListItem.swift in Sources */,
 				9E2097BC25C937DC0055D374 /* LoginPage.swift in Sources */,
 				9E76C2BE25CA974700953D94 /* ChooseUniversity.swift in Sources */,
 				9E39568925C8B25600EA6365 /* donkomiApp.swift in Sources */,
 				9E2097C625C9660E0055D374 /* TextBox.swift in Sources */,
 				9E2097C225C965300055D374 /* RegistrationPage.swift in Sources */,
+				9E76C2CC25CAE45100953D94 /* Konstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
