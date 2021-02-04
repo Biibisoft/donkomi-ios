@@ -3,7 +3,8 @@ import SwiftUI
 
 struct CartPage: View {
     var body: some View {
-        Text("Hello, World!")
+        Text("Trying something")
+			Text("Trying something")
     }
 }
 
