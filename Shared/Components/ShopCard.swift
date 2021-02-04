@@ -1,10 +1,9 @@
 
-
 import SwiftUI
 
-struct ProductCard: View {
-    var body: some View {
-			VStack{
+struct ShopCard: View {
+	var body: some View {
+		VStack{
 			HStack{
 				Image("burger")
 					.resizable()
@@ -23,22 +22,19 @@ struct ProductCard: View {
 							.foregroundColor(.appGreen)
 							.padding(.trailing)
 					}
-					Text("Rs 600")
-						.fontWeight(.semibold)
-						.font(.title3)
-						.fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
-						.foregroundColor(.appRed)
+					
 				}
 				
 			}.frame(maxWidth:.infinity,alignment: .leading)
 			.padding([.leading,.trailing])
-				Divider()
-			}
-    }
+			Divider()
+		}
+	}
+	
 }
 
-struct ProductCard_Previews: PreviewProvider {
-    static var previews: some View {
-        ProductCard()
-    }
+struct ShopCard_Previews: PreviewProvider {
+	static var previews: some View {
+		ShopCard()
+	}
 }

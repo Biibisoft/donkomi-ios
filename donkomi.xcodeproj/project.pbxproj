@@ -38,6 +38,8 @@
 		9E76C2FF25CBEEF700953D94 /* GuruLandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C2FE25CBEEF700953D94 /* GuruLandingPage.swift */; };
 		9E76C30525CBEF4800953D94 /* AddToVenture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C30425CBEF4800953D94 /* AddToVenture.swift */; };
 		9E76C30925CBF15B00953D94 /* TabSelectors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C30825CBF15B00953D94 /* TabSelectors.swift */; };
+		9E76C30D25CC03DC00953D94 /* ShopCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C30C25CC03DC00953D94 /* ShopCard.swift */; };
+		9E76C31225CC05C000953D94 /* NewVendorForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C31125CC05C000953D94 /* NewVendorForm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +76,8 @@
 		9E76C2FE25CBEEF700953D94 /* GuruLandingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuruLandingPage.swift; sourceTree = "<group>"; };
 		9E76C30425CBEF4800953D94 /* AddToVenture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToVenture.swift; sourceTree = "<group>"; };
 		9E76C30825CBF15B00953D94 /* TabSelectors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabSelectors.swift; sourceTree = "<group>"; };
+		9E76C30C25CC03DC00953D94 /* ShopCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCard.swift; sourceTree = "<group>"; };
+		9E76C31125CC05C000953D94 /* NewVendorForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewVendorForm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +196,7 @@
 				9E76C2D325CAF22B00953D94 /* ProductCard.swift */,
 				9E76C2D725CB022B00953D94 /* IconButtonCard.swift */,
 				9E76C30825CBF15B00953D94 /* TabSelectors.swift */,
+				9E76C30C25CC03DC00953D94 /* ShopCard.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -207,10 +212,19 @@
 		9E76C2FD25CBEED300953D94 /* Guru Acount Pages */ = {
 			isa = PBXGroup;
 			children = (
+				9E76C31025CC05AF00953D94 /* Forms */,
 				9E76C2FE25CBEEF700953D94 /* GuruLandingPage.swift */,
 				9E76C30425CBEF4800953D94 /* AddToVenture.swift */,
 			);
 			path = "Guru Acount Pages";
+			sourceTree = "<group>";
+		};
+		9E76C31025CC05AF00953D94 /* Forms */ = {
+			isa = PBXGroup;
+			children = (
+				9E76C31125CC05C000953D94 /* NewVendorForm.swift */,
+			);
+			path = Forms;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,6 +341,7 @@
 				9E2097BC25C937DC0055D374 /* LoginPage.swift in Sources */,
 				9E76C2F625CBE6D500953D94 /* DonkomiApplicationPage.swift in Sources */,
 				9E76C2BE25CA974700953D94 /* ChooseUniversity.swift in Sources */,
+				9E76C30D25CC03DC00953D94 /* ShopCard.swift in Sources */,
 				9E76C2D025CAE89E00953D94 /* OrderProcessCard.swift in Sources */,
 				9E76C2EA25CBD3E200953D94 /* CompleteOrderPage.swift in Sources */,
 				9E76C2D825CB022B00953D94 /* IconButtonCard.swift in Sources */,
@@ -336,6 +351,7 @@
 				9E76C2DC25CBC74800953D94 /* ClientLandingPage.swift in Sources */,
 				9E2097C225C965300055D374 /* RegistrationPage.swift in Sources */,
 				9E76C2CC25CAE45100953D94 /* Konstants.swift in Sources */,
+				9E76C31225CC05C000953D94 /* NewVendorForm.swift in Sources */,
 				9E76C2E625CBC81C00953D94 /* PlaceOrderPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

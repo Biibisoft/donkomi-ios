@@ -6,7 +6,6 @@ struct GuruLandingPage: View {
 			ScrollView {
 				ForEach(1...5, id: \.self){
 					item in
-					
 					RoutineCard()
 				}
 			}

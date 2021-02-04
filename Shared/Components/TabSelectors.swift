@@ -6,9 +6,10 @@ struct TabSelectors: View {
 	var selectionColor = Color.appRed
 	var textColor = Color.black;
 	var items = ["Vendors", "Stock", "Routine"]
+	var spacing: CGFloat = 20
 	var body: some View {
 		ScrollView {
-			HStack(spacing:20){
+			HStack(spacing:spacing){
 				ForEach(items, id: \.self){ item in
 					Button(action:{ selected = item}, label:{
 						UnderlinedText(text: item, active: item == selected)
