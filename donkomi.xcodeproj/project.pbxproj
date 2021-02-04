@@ -41,6 +41,7 @@
 		9E76C30D25CC03DC00953D94 /* ShopCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C30C25CC03DC00953D94 /* ShopCard.swift */; };
 		9E76C31225CC05C000953D94 /* NewVendorForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C31125CC05C000953D94 /* NewVendorForm.swift */; };
 		9E76C31925CC101D00953D94 /* NewStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C31825CC101D00953D94 /* NewStock.swift */; };
+		9E76C31F25CC2C1400953D94 /* CreateRoutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C31E25CC2C1400953D94 /* CreateRoutine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		9E76C30C25CC03DC00953D94 /* ShopCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCard.swift; sourceTree = "<group>"; };
 		9E76C31125CC05C000953D94 /* NewVendorForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewVendorForm.swift; sourceTree = "<group>"; };
 		9E76C31825CC101D00953D94 /* NewStock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewStock.swift; sourceTree = "<group>"; };
+		9E76C31E25CC2C1400953D94 /* CreateRoutine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRoutine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,6 +228,7 @@
 			children = (
 				9E76C31125CC05C000953D94 /* NewVendorForm.swift */,
 				9E76C31825CC101D00953D94 /* NewStock.swift */,
+				9E76C31E25CC2C1400953D94 /* CreateRoutine.swift */,
 			);
 			path = Forms;
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 				9E2097CA25C966610055D374 /* LongButton.swift in Sources */,
 				9E76C30525CBEF4800953D94 /* AddToVenture.swift in Sources */,
 				9E76C2FA25CBEDD400953D94 /* RoutineCard.swift in Sources */,
+				9E76C31F25CC2C1400953D94 /* CreateRoutine.swift in Sources */,
 				9E76C2C425CACAAB00953D94 /* CampaignCard.swift in Sources */,
 				9E39569B25C8B35000EA6365 /* Color-Ext.swift in Sources */,
 				9E3956AA25C931F400EA6365 /* Image-Ext.swift in Sources */,
