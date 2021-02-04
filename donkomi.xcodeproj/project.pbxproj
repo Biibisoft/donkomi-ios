@@ -31,6 +31,13 @@
 		9E76C2DC25CBC74800953D94 /* ClientLandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C2DB25CBC74800953D94 /* ClientLandingPage.swift */; };
 		9E76C2E625CBC81C00953D94 /* PlaceOrderPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C2E525CBC81C00953D94 /* PlaceOrderPage.swift */; };
 		9E76C2EA25CBD3E200953D94 /* CompleteOrderPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C2E925CBD3E200953D94 /* CompleteOrderPage.swift */; };
+		9E76C2EE25CBE4B300953D94 /* AwaitingOrders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C2ED25CBE4B300953D94 /* AwaitingOrders.swift */; };
+		9E76C2F225CBE65F00953D94 /* OrderHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C2F125CBE65F00953D94 /* OrderHistory.swift */; };
+		9E76C2F625CBE6D500953D94 /* DonkomiApplicationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C2F525CBE6D500953D94 /* DonkomiApplicationPage.swift */; };
+		9E76C2FA25CBEDD400953D94 /* RoutineCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C2F925CBEDD400953D94 /* RoutineCard.swift */; };
+		9E76C2FF25CBEEF700953D94 /* GuruLandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C2FE25CBEEF700953D94 /* GuruLandingPage.swift */; };
+		9E76C30525CBEF4800953D94 /* AddToVenture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C30425CBEF4800953D94 /* AddToVenture.swift */; };
+		9E76C30925CBF15B00953D94 /* TabSelectors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C30825CBF15B00953D94 /* TabSelectors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +67,13 @@
 		9E76C2DB25CBC74800953D94 /* ClientLandingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientLandingPage.swift; sourceTree = "<group>"; };
 		9E76C2E525CBC81C00953D94 /* PlaceOrderPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceOrderPage.swift; sourceTree = "<group>"; };
 		9E76C2E925CBD3E200953D94 /* CompleteOrderPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteOrderPage.swift; sourceTree = "<group>"; };
+		9E76C2ED25CBE4B300953D94 /* AwaitingOrders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwaitingOrders.swift; sourceTree = "<group>"; };
+		9E76C2F125CBE65F00953D94 /* OrderHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderHistory.swift; sourceTree = "<group>"; };
+		9E76C2F525CBE6D500953D94 /* DonkomiApplicationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonkomiApplicationPage.swift; sourceTree = "<group>"; };
+		9E76C2F925CBEDD400953D94 /* RoutineCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineCard.swift; sourceTree = "<group>"; };
+		9E76C2FE25CBEEF700953D94 /* GuruLandingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuruLandingPage.swift; sourceTree = "<group>"; };
+		9E76C30425CBEF4800953D94 /* AddToVenture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToVenture.swift; sourceTree = "<group>"; };
+		9E76C30825CBF15B00953D94 /* TabSelectors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabSelectors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,12 +165,16 @@
 		9E3956A025C8B44E00EA6365 /* Pages */ = {
 			isa = PBXGroup;
 			children = (
+				9E76C2FD25CBEED300953D94 /* Guru Acount Pages */,
 				9E2097BA25C937CF0055D374 /* Authentication */,
 				9E3956A325C9318D00EA6365 /* SplashScreen.swift */,
 				9E76C2BD25CA974700953D94 /* ChooseUniversity.swift */,
 				9E76C2DB25CBC74800953D94 /* ClientLandingPage.swift */,
 				9E76C2E525CBC81C00953D94 /* PlaceOrderPage.swift */,
 				9E76C2E925CBD3E200953D94 /* CompleteOrderPage.swift */,
+				9E76C2ED25CBE4B300953D94 /* AwaitingOrders.swift */,
+				9E76C2F125CBE65F00953D94 /* OrderHistory.swift */,
+				9E76C2F525CBE6D500953D94 /* DonkomiApplicationPage.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -168,10 +186,12 @@
 				9E2097C925C966610055D374 /* LongButton.swift */,
 				9E76C2B525CA7D6800953D94 /* DropdownMenu.swift */,
 				9E76C2C325CACAAB00953D94 /* CampaignCard.swift */,
+				9E76C2F925CBEDD400953D94 /* RoutineCard.swift */,
 				9E76C2C725CAD57000953D94 /* ProductListItem.swift */,
 				9E76C2CF25CAE89E00953D94 /* OrderProcessCard.swift */,
 				9E76C2D325CAF22B00953D94 /* ProductCard.swift */,
 				9E76C2D725CB022B00953D94 /* IconButtonCard.swift */,
+				9E76C30825CBF15B00953D94 /* TabSelectors.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -182,6 +202,15 @@
 				9E76C2CB25CAE45100953D94 /* Konstants.swift */,
 			);
 			path = Utitlities;
+			sourceTree = "<group>";
+		};
+		9E76C2FD25CBEED300953D94 /* Guru Acount Pages */ = {
+			isa = PBXGroup;
+			children = (
+				9E76C2FE25CBEEF700953D94 /* GuruLandingPage.swift */,
+				9E76C30425CBEF4800953D94 /* AddToVenture.swift */,
+			);
+			path = "Guru Acount Pages";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,21 +311,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E3956A425C9318D00EA6365 /* SplashScreen.swift in Sources */,
+				9E76C2EE25CBE4B300953D94 /* AwaitingOrders.swift in Sources */,
 				9E76C2B625CA7D6800953D94 /* DropdownMenu.swift in Sources */,
 				9E2097CA25C966610055D374 /* LongButton.swift in Sources */,
+				9E76C30525CBEF4800953D94 /* AddToVenture.swift in Sources */,
+				9E76C2FA25CBEDD400953D94 /* RoutineCard.swift in Sources */,
 				9E76C2C425CACAAB00953D94 /* CampaignCard.swift in Sources */,
 				9E39569B25C8B35000EA6365 /* Color-Ext.swift in Sources */,
 				9E3956AA25C931F400EA6365 /* Image-Ext.swift in Sources */,
+				9E76C2FF25CBEEF700953D94 /* GuruLandingPage.swift in Sources */,
 				9E39568B25C8B25600EA6365 /* AppIndex.swift in Sources */,
 				9E76C2D425CAF22B00953D94 /* ProductCard.swift in Sources */,
+				9E76C30925CBF15B00953D94 /* TabSelectors.swift in Sources */,
 				9E76C2C825CAD57000953D94 /* ProductListItem.swift in Sources */,
 				9E2097BC25C937DC0055D374 /* LoginPage.swift in Sources */,
+				9E76C2F625CBE6D500953D94 /* DonkomiApplicationPage.swift in Sources */,
 				9E76C2BE25CA974700953D94 /* ChooseUniversity.swift in Sources */,
 				9E76C2D025CAE89E00953D94 /* OrderProcessCard.swift in Sources */,
 				9E76C2EA25CBD3E200953D94 /* CompleteOrderPage.swift in Sources */,
 				9E76C2D825CB022B00953D94 /* IconButtonCard.swift in Sources */,
 				9E39568925C8B25600EA6365 /* donkomiApp.swift in Sources */,
 				9E2097C625C9660E0055D374 /* TextBox.swift in Sources */,
+				9E76C2F225CBE65F00953D94 /* OrderHistory.swift in Sources */,
 				9E76C2DC25CBC74800953D94 /* ClientLandingPage.swift in Sources */,
 				9E2097C225C965300055D374 /* RegistrationPage.swift in Sources */,
 				9E76C2CC25CAE45100953D94 /* Konstants.swift in Sources */,

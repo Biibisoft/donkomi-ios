@@ -2,7 +2,9 @@
 import SwiftUI
 
 struct OrderProcessCard: View {
+	var awaiting = false
 	var body: some View {
+		VStack{
 		HStack{
 			Image("burger")
 				.resizable()
@@ -16,7 +18,7 @@ struct OrderProcessCard: View {
 						.fontWeight(.semibold)
 						.foregroundColor(.gray)
 					Spacer()
-					Text("Completed")
+					Text(awaiting ? "Awaiting" : "Completed")
 						.font(.caption)
 						.fontWeight(.semibold)
 						.foregroundColor(.appGreen)
@@ -39,7 +41,9 @@ struct OrderProcessCard: View {
 			}
 			
 		}.frame(maxWidth:.infinity,alignment: .leading)
-		.padding(10)
+		.padding([.leading,.trailing],10)
+			Divider()
+		}
 	}
 }
 
