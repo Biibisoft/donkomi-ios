@@ -5,6 +5,8 @@ struct NewVendorForm: View {
     var body: some View {
 			VStack{
 				
+				
+			}
 		
 		
 		}
