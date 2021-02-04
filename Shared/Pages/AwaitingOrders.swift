@@ -10,7 +10,7 @@ struct AwaitingOrders: View {
 						OrderProcessCard()
 					}
 				}
-			}
+			}.navigationTitle("All Orders")
     }
 }
 

@@ -3,11 +3,12 @@ import SwiftUI
 
 struct CompleteOrderPage: View {
 	var body: some View {
+		
 		ScrollView{
 			OrderGroup()
 			OrderGroup()
-			
-		}
+		}.navigationTitle("Complete Order")
+		
 	}
 }
 
@@ -44,7 +45,7 @@ struct OrderHeader : View {
 		.foregroundColor(.appBlue)
 		.padding(10)
 		Divider()
-			
+		
 	}
 }
 struct CompleteOrderPage_Previews: PreviewProvider {

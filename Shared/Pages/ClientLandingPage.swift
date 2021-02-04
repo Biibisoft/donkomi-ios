@@ -14,7 +14,7 @@ struct ClientLandingPage: View {
 			ShopComingSoon()
 				.tabItem {
 					Image(systemName:"bag.fill")
-					Text("Orders")
+					Text("Shops")
 				}
 			
 			SettingsPage()

@@ -26,9 +26,16 @@ struct SettingsPage: View {
 					.foregroundColor(.appBlue)
 					.padding(.top,2)
 				Divider()
-				SettingsItem(title:"Profile")
-				SettingsItem(title:"Apply to Earn On Donkomi", icon:"dollarsign.circle.fill")
-				SettingsItem(title:"Sign Out" ,icon:"arrow.down.left.circle.fill")
+				Button(action:{}, label:{
+					SettingsItem(title:"Profile")
+				})
+				Button(action:{}, label:{
+					SettingsItem(title:"Apply to Earn On Donkomi", icon:"dollarsign.circle.fill")
+				})
+				Button(action:{}, label:{
+					SettingsItem(title:"Sign Out" ,icon:"arrow.down.left.circle.fill")
+				})
+
 			}
 		}.frame(maxWidth:.infinity)
 	}
