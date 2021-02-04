@@ -43,6 +43,7 @@
 		9E76C31925CC101D00953D94 /* NewStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C31825CC101D00953D94 /* NewStock.swift */; };
 		9E76C31F25CC2C1400953D94 /* CreateRoutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C31E25CC2C1400953D94 /* CreateRoutine.swift */; };
 		9E76C32325CC392A00953D94 /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C32225CC392A00953D94 /* SettingsPage.swift */; };
+		9E76C32825CC529100953D94 /* CartPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C32725CC529100953D94 /* CartPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +85,7 @@
 		9E76C31825CC101D00953D94 /* NewStock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewStock.swift; sourceTree = "<group>"; };
 		9E76C31E25CC2C1400953D94 /* CreateRoutine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRoutine.swift; sourceTree = "<group>"; };
 		9E76C32225CC392A00953D94 /* SettingsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPage.swift; sourceTree = "<group>"; };
+		9E76C32725CC529100953D94 /* CartPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +188,7 @@
 				9E76C2F125CBE65F00953D94 /* OrderHistory.swift */,
 				9E76C2F525CBE6D500953D94 /* DonkomiApplicationPage.swift */,
 				9E76C32225CC392A00953D94 /* SettingsPage.swift */,
+				9E76C32725CC529100953D94 /* CartPage.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -346,6 +349,7 @@
 				9E76C2FF25CBEEF700953D94 /* GuruLandingPage.swift in Sources */,
 				9E39568B25C8B25600EA6365 /* AppIndex.swift in Sources */,
 				9E76C2D425CAF22B00953D94 /* ProductCard.swift in Sources */,
+				9E76C32825CC529100953D94 /* CartPage.swift in Sources */,
 				9E76C30925CBF15B00953D94 /* TabSelectors.swift in Sources */,
 				9E76C2C825CAD57000953D94 /* ProductListItem.swift in Sources */,
 				9E2097BC25C937DC0055D374 /* LoginPage.swift in Sources */,

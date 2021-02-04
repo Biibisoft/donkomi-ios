@@ -4,8 +4,9 @@ import SwiftUI
 
 struct AppIndex: View {
     var body: some View {
-       RegistrationPage()
-    }
+			ClientLandingPage()
+		
+		}
 }
 
 struct ContentView_Previews: PreviewProvider {
