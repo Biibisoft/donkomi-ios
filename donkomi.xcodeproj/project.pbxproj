@@ -40,6 +40,7 @@
 		9E76C30925CBF15B00953D94 /* TabSelectors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C30825CBF15B00953D94 /* TabSelectors.swift */; };
 		9E76C30D25CC03DC00953D94 /* ShopCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C30C25CC03DC00953D94 /* ShopCard.swift */; };
 		9E76C31225CC05C000953D94 /* NewVendorForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C31125CC05C000953D94 /* NewVendorForm.swift */; };
+		9E76C31925CC101D00953D94 /* NewStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C31825CC101D00953D94 /* NewStock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +79,7 @@
 		9E76C30825CBF15B00953D94 /* TabSelectors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabSelectors.swift; sourceTree = "<group>"; };
 		9E76C30C25CC03DC00953D94 /* ShopCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCard.swift; sourceTree = "<group>"; };
 		9E76C31125CC05C000953D94 /* NewVendorForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewVendorForm.swift; sourceTree = "<group>"; };
+		9E76C31825CC101D00953D94 /* NewStock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewStock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,6 +225,7 @@
 			isa = PBXGroup;
 			children = (
 				9E76C31125CC05C000953D94 /* NewVendorForm.swift */,
+				9E76C31825CC101D00953D94 /* NewStock.swift */,
 			);
 			path = Forms;
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 				9E76C2DC25CBC74800953D94 /* ClientLandingPage.swift in Sources */,
 				9E2097C225C965300055D374 /* RegistrationPage.swift in Sources */,
 				9E76C2CC25CAE45100953D94 /* Konstants.swift in Sources */,
+				9E76C31925CC101D00953D94 /* NewStock.swift in Sources */,
 				9E76C31225CC05C000953D94 /* NewVendorForm.swift in Sources */,
 				9E76C2E625CBC81C00953D94 /* PlaceOrderPage.swift in Sources */,
 			);

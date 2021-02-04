@@ -40,6 +40,7 @@ struct TextBox : View {
 						}
 					}
 				)
+			
 		}
 	}
 }

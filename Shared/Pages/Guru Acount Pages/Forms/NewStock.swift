@@ -1,12 +1,14 @@
 
+
 import SwiftUI
 
-struct NewVendorForm: View {
+struct NewStock: View {
 	@State var text = ""
+	@State var selected = "Selected"
 	var body: some View {
 		VStack{
 			VStack{
-				Text("Vendor's Cover Photo")
+				Text("Product Cover Photo")
 					.fontWeight(.semibold)
 					.foregroundColor(.white)
 					.frame(maxWidth:.infinity, alignment: .leading)
@@ -23,13 +25,17 @@ struct NewVendorForm: View {
 					)
 			}.padding(.top,28)
 			Form{
-				Section(header:Text("Vendor's Details").fontWeight(.semibold).foregroundColor(.black)){
-					TextField("Vendor name", text: $text)
-					Text("Brief description")
-						.foregroundColor(Color.grey_shade_3)
-						.font(.subheadline)
-					TextEditor(text: $text)
-						.frame(height:150)
+				Section(header:Text("Product Details").fontWeight(.semibold).foregroundColor(.black)){
+					TextField("Product name", text: $text)
+					TextField("Price", text: $text)
+					
+					Picker(selection:$selected, label:Text("Select Vendor")){
+						ForEach(["McDonals", "Ricardso","Jumbo"], id: \.self){
+							item in
+							
+							Text(item).tag(item)
+						}
+					}
 					Button(action:{},label:{
 						
 						Text("Done")
@@ -42,8 +48,8 @@ struct NewVendorForm: View {
 	}
 }
 
-struct NewVendorForm_Previews: PreviewProvider {
+struct NewStock_Previews: PreviewProvider {
 	static var previews: some View {
-		NewVendorForm()
+		NewStock()
 	}
 }
