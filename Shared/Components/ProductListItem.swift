@@ -3,7 +3,7 @@
 import SwiftUI
 
 struct ProductListItem: View {
-	var type = Konstants.PRODUCT_ITEM
+	var type = "dfdf"
 	var body: some View {
 		if type == Konstants.PRODUCT_ITEM{
 			AddProductListItem()
@@ -30,8 +30,9 @@ struct AddProductListItem : View {
 					Image(systemName:"cart.fill.badge.plus")
 						.font(.title)
 						.foregroundColor(.appGreen)
+						.padding(.trailing)
 					
-				}.padding()
+				}.padding([.leading,.trailing])
 			}.frame(maxWidth:.infinity, alignment: .leading)
 			Divider()
 		}
@@ -77,7 +78,7 @@ struct InCartListItem : View {
 							})
 						}
 					}
-				}.padding()
+				}.padding([.leading,.trailing])
 			}.frame(maxWidth:.infinity, alignment: .leading)
 			Divider()
 		}

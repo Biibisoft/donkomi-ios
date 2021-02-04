@@ -28,6 +28,9 @@
 		9E76C2D025CAE89E00953D94 /* OrderProcessCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C2CF25CAE89E00953D94 /* OrderProcessCard.swift */; };
 		9E76C2D425CAF22B00953D94 /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C2D325CAF22B00953D94 /* ProductCard.swift */; };
 		9E76C2D825CB022B00953D94 /* IconButtonCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C2D725CB022B00953D94 /* IconButtonCard.swift */; };
+		9E76C2DC25CBC74800953D94 /* ClientLandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C2DB25CBC74800953D94 /* ClientLandingPage.swift */; };
+		9E76C2E625CBC81C00953D94 /* PlaceOrderPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C2E525CBC81C00953D94 /* PlaceOrderPage.swift */; };
+		9E76C2EA25CBD3E200953D94 /* CompleteOrderPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C2E925CBD3E200953D94 /* CompleteOrderPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +57,9 @@
 		9E76C2CF25CAE89E00953D94 /* OrderProcessCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderProcessCard.swift; sourceTree = "<group>"; };
 		9E76C2D325CAF22B00953D94 /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
 		9E76C2D725CB022B00953D94 /* IconButtonCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButtonCard.swift; sourceTree = "<group>"; };
+		9E76C2DB25CBC74800953D94 /* ClientLandingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientLandingPage.swift; sourceTree = "<group>"; };
+		9E76C2E525CBC81C00953D94 /* PlaceOrderPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceOrderPage.swift; sourceTree = "<group>"; };
+		9E76C2E925CBD3E200953D94 /* CompleteOrderPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteOrderPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +154,9 @@
 				9E2097BA25C937CF0055D374 /* Authentication */,
 				9E3956A325C9318D00EA6365 /* SplashScreen.swift */,
 				9E76C2BD25CA974700953D94 /* ChooseUniversity.swift */,
+				9E76C2DB25CBC74800953D94 /* ClientLandingPage.swift */,
+				9E76C2E525CBC81C00953D94 /* PlaceOrderPage.swift */,
+				9E76C2E925CBD3E200953D94 /* CompleteOrderPage.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -284,11 +293,14 @@
 				9E2097BC25C937DC0055D374 /* LoginPage.swift in Sources */,
 				9E76C2BE25CA974700953D94 /* ChooseUniversity.swift in Sources */,
 				9E76C2D025CAE89E00953D94 /* OrderProcessCard.swift in Sources */,
+				9E76C2EA25CBD3E200953D94 /* CompleteOrderPage.swift in Sources */,
 				9E76C2D825CB022B00953D94 /* IconButtonCard.swift in Sources */,
 				9E39568925C8B25600EA6365 /* donkomiApp.swift in Sources */,
 				9E2097C625C9660E0055D374 /* TextBox.swift in Sources */,
+				9E76C2DC25CBC74800953D94 /* ClientLandingPage.swift in Sources */,
 				9E2097C225C965300055D374 /* RegistrationPage.swift in Sources */,
 				9E76C2CC25CAE45100953D94 /* Konstants.swift in Sources */,
+				9E76C2E625CBC81C00953D94 /* PlaceOrderPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
