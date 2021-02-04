@@ -4,7 +4,7 @@ import SwiftUI
 
 struct AppIndex: View {
     var body: some View {
-			ClientLandingPage()
+			GuruLandingPage()
 		
 		}
 }

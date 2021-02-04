@@ -2,23 +2,26 @@
 import SwiftUI
 
 struct ShopCard: View {
+	var icon = "pencil.circle.fill"
+	var text = "McDonalds"
+	var image = "burger"
 	var body: some View {
 		VStack{
 			HStack{
-				Image("burger")
+				Image(image)
 					.resizable()
-					.frame(width:80, height:80)
+					.frame(width:50, height:50)
 					.cornerRadius(10)
 					.padding(.trailing,10)
 				VStack(alignment:.leading){
 					HStack{
-						Text("Fries")
+						Text(text)
 							.font(.title2)
 							.fontWeight(.semibold)
 							.foregroundColor(.gray)
 						Spacer()
-						Image(systemName:"pencil.circle.fill")
-							.font(.system(size:35))
+						Image(systemName:icon)
+							.font(.system(size:30))
 							.foregroundColor(.appGreen)
 							.padding(.trailing)
 					}

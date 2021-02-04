@@ -19,7 +19,7 @@ struct AddToVenture: View {
 			VStack{
 				DisplayAllVendors()
 			}
-		}
+		}.navigationTitle("Manage")
 	}
 }
 

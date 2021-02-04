@@ -44,6 +44,7 @@
 		9E76C31F25CC2C1400953D94 /* CreateRoutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C31E25CC2C1400953D94 /* CreateRoutine.swift */; };
 		9E76C32325CC392A00953D94 /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C32225CC392A00953D94 /* SettingsPage.swift */; };
 		9E76C32825CC529100953D94 /* CartPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C32725CC529100953D94 /* CartPage.swift */; };
+		9E76C32E25CC6AF200953D94 /* OrderList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C32D25CC6AF200953D94 /* OrderList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +87,7 @@
 		9E76C31E25CC2C1400953D94 /* CreateRoutine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRoutine.swift; sourceTree = "<group>"; };
 		9E76C32225CC392A00953D94 /* SettingsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPage.swift; sourceTree = "<group>"; };
 		9E76C32725CC529100953D94 /* CartPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartPage.swift; sourceTree = "<group>"; };
+		9E76C32D25CC6AF200953D94 /* OrderList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,6 +227,7 @@
 				9E76C31025CC05AF00953D94 /* Forms */,
 				9E76C2FE25CBEEF700953D94 /* GuruLandingPage.swift */,
 				9E76C30425CBEF4800953D94 /* AddToVenture.swift */,
+				9E76C32D25CC6AF200953D94 /* OrderList.swift */,
 			);
 			path = "Guru Acount Pages";
 			sourceTree = "<group>";
@@ -344,6 +347,7 @@
 				9E76C2FA25CBEDD400953D94 /* RoutineCard.swift in Sources */,
 				9E76C31F25CC2C1400953D94 /* CreateRoutine.swift in Sources */,
 				9E76C2C425CACAAB00953D94 /* CampaignCard.swift in Sources */,
+				9E76C32E25CC6AF200953D94 /* OrderList.swift in Sources */,
 				9E39569B25C8B35000EA6365 /* Color-Ext.swift in Sources */,
 				9E3956AA25C931F400EA6365 /* Image-Ext.swift in Sources */,
 				9E76C2FF25CBEEF700953D94 /* GuruLandingPage.swift in Sources */,
