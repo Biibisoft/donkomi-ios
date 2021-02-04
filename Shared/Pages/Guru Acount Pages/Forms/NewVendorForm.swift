@@ -44,6 +44,8 @@ struct NewVendorForm: View {
 
 struct NewVendorForm_Previews: PreviewProvider {
 	static var previews: some View {
-		NewVendorForm()
+		Group {
+			NewVendorForm()
+		}
 	}
 }

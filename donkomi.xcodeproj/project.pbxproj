@@ -42,6 +42,7 @@
 		9E76C31225CC05C000953D94 /* NewVendorForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C31125CC05C000953D94 /* NewVendorForm.swift */; };
 		9E76C31925CC101D00953D94 /* NewStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C31825CC101D00953D94 /* NewStock.swift */; };
 		9E76C31F25CC2C1400953D94 /* CreateRoutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C31E25CC2C1400953D94 /* CreateRoutine.swift */; };
+		9E76C32325CC392A00953D94 /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C32225CC392A00953D94 /* SettingsPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +83,7 @@
 		9E76C31125CC05C000953D94 /* NewVendorForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewVendorForm.swift; sourceTree = "<group>"; };
 		9E76C31825CC101D00953D94 /* NewStock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewStock.swift; sourceTree = "<group>"; };
 		9E76C31E25CC2C1400953D94 /* CreateRoutine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRoutine.swift; sourceTree = "<group>"; };
+		9E76C32225CC392A00953D94 /* SettingsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +185,7 @@
 				9E76C2ED25CBE4B300953D94 /* AwaitingOrders.swift */,
 				9E76C2F125CBE65F00953D94 /* OrderHistory.swift */,
 				9E76C2F525CBE6D500953D94 /* DonkomiApplicationPage.swift */,
+				9E76C32225CC392A00953D94 /* SettingsPage.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -357,6 +360,7 @@
 				9E76C2F225CBE65F00953D94 /* OrderHistory.swift in Sources */,
 				9E76C2DC25CBC74800953D94 /* ClientLandingPage.swift in Sources */,
 				9E2097C225C965300055D374 /* RegistrationPage.swift in Sources */,
+				9E76C32325CC392A00953D94 /* SettingsPage.swift in Sources */,
 				9E76C2CC25CAE45100953D94 /* Konstants.swift in Sources */,
 				9E76C31925CC101D00953D94 /* NewStock.swift in Sources */,
 				9E76C31225CC05C000953D94 /* NewVendorForm.swift in Sources */,
