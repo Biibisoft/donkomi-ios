@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct donkomiApp: App {
+	
+	var appState = ApplicationState()
     var body: some Scene {
         WindowGroup {
             AppIndex()
+							.environmentObject(appState)
         }
     }
 }

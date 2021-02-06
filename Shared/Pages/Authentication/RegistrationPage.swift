@@ -2,28 +2,46 @@
 import SwiftUI
 
 struct RegistrationPage: View {
+	@EnvironmentObject var state : ApplicationState
 	@State var text : String = ""
 	var body: some View {
-		VStack{
-			Spacer()
-				.frame(height:100)
-			VStack(alignment:.leading){
-				Text("Create Your Account With email and password")
-					.padding(.bottom)
-				TextBox(text: $text, placeholder: "Email")
-				TextBox(text: $text, placeholder: "Preferred Name")
-				TextBox(text: $text, placeholder: "Phone Number")
-				TextBox(text: $text, placeholder: "Password")
-				TextBox(text: $text, placeholder: "Confirm Password")
-				DropdownMenu()
-				
-			}.padding()
-			Spacer()
+		ScrollView{
 			VStack{
-				LongButton(text:"REGISTER")
-				LongButton(text:"USE GOOGLE", backgroundColor: Color.appRed)
-			}.padding()
-		}.navigationTitle("Sign In Instead")
+				VStack(alignment:.leading){
+					Text("Create Your Account With email and password")
+						.font(.caption)
+						.padding(.bottom)
+					TextBox(text: $text, placeholder: "Email")
+					TextBox(text: $text, placeholder: "Preferred Name")
+					TextBox(text: $text, placeholder: "Phone Number")
+					TextBox(text: $text, placeholder: "Password")
+					TextBox(text: $text, placeholder: "Confirm Password")
+					DropdownMenu()
+					
+				}.padding()
+				Spacer()
+				VStack{
+					Button(action:{state.CURRENT_PAGE = Konstants.CLIENT_LANDING_PAGE	}, label:{
+						LongButton(text:"REGISTER")
+						
+					})
+					
+					Button(action:{state.CURRENT_PAGE = Konstants.GURU_LANDING_PAGE}, label:{
+						LongButton(text:"USE GOOGLE", backgroundColor: Color.appRed)
+					})
+					
+				}.padding()
+			}
+		}.navigationTitle("Registration")
+		.navigationBarItems(leading:
+													Button(action:{state.CURRENT_PAGE = Konstants.LOGIN_PAGE}, label:{ HStack{
+														Image(systemName:"chevron.backward")
+														Text("Back")
+															.font(.body)
+													}.foregroundColor(.appBlue)
+													})
+		)
+		.navigationBarBackButtonHidden(true)
 	}
 }
 

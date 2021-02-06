@@ -30,7 +30,7 @@ struct GuruLandingPage: View {
 			}
 			
 			
-		}
+		}.navigationBarBackButtonHidden(true)
 	}
 }
 

@@ -3,13 +3,13 @@
 import SwiftUI
 
 struct AppIndex: View {
-	@StateObject var state = ApplicationState()
+	@EnvironmentObject var state : ApplicationState
 	var body: some View {
 		NavigationView{
 			
 			ZStack{
 				
-				NavigationLink( "", destination: SplashScreen(state:state), tag: Konstants.SPLASH_SCREEN, selection: $state.CURRENT_PAGE)
+				NavigationLink( "", destination: SplashScreen(), tag: Konstants.SPLASH_SCREEN, selection: $state.CURRENT_PAGE)
 				
 				NavigationLink( "", destination: LoginPage(), tag: Konstants.LOGIN_PAGE, selection: $state.CURRENT_PAGE)
 				
@@ -19,11 +19,11 @@ struct AppIndex: View {
 				
 				NavigationLink( "", destination: GuruLandingPage(), tag: Konstants.GURU_LANDING_PAGE, selection: $state.CURRENT_PAGE)
 				
-				NavigationLink( "", destination: CartPage(), tag: Konstants.SPLASH_SCREEN, selection: $state.CURRENT_PAGE)
+				NavigationLink( "", destination: CartPage(), tag: Konstants.COMPLETE_ORDER_PAGE, selection: $state.CURRENT_PAGE)
 				
 				NavigationLink( "", destination: AddToVenture(), tag: Konstants.GURU_ADD_TO_VENTURE_PAGE, selection: $state.CURRENT_PAGE)
 				
-				NavigationLink( "", destination: OrderHistory(), tag: Konstants.SPLASH_SCREEN, selection: $state.CURRENT_PAGE)
+				NavigationLink( "", destination: OrderHistory(), tag: Konstants.ORDER_HISTORY_PAGE, selection: $state.CURRENT_PAGE)
 				
 				NavigationLink( "", destination: OrderList(), tag: Konstants.ORDER_MANAGEMENT, selection: $state.CURRENT_PAGE)
 				
