@@ -7,39 +7,36 @@ struct ClientLandingPage: View {
 	var body: some View {
 		TabView{
 			DisplayAllCompaigns()
-				.onAppear(){
-					title = "Live Trips"
-				}
+				//				 To remove navigation view spaces
+				.navigationBarTitle("")
+				.navigationBarBackButtonHidden(true)
+				.navigationBarHidden(true)
 				.tabItem {
 					Image(systemName:"megaphone.fill")
 					Text("Live Trips")
 				}
 			
 			ShopComingSoon()
-				.onAppear(){
-					title = "Shops"
-				}
-			
+				
+				.navigationBarTitle("")
+				.navigationBarBackButtonHidden(true)
+				.navigationBarHidden(true)
 				.tabItem {
 					Image(systemName:"bag.fill")
 					Text("Shops")
 				}
-				
+			
 			SettingsPage()
-				.onAppear(){
-					title = "Settings"
-				}
+				.navigationBarTitle("")
+				.navigationBarBackButtonHidden(true)
+				.navigationBarHidden(true)
 				.tabItem {
 					Image(systemName:"gearshape.fill")
 					Text("Settings")
 				}
-			
-		}.navigationBarBackButtonHidden(true)
-		.navigationTitle(title)
-		.navigationBarItems(
-			trailing:Image(systemName:"cart.fill")
-				.font(.system(size:25))
-				.foregroundColor(.black))
+		}.navigationBarTitle("")
+		.navigationBarBackButtonHidden(true)
+		.navigationBarHidden(true)
 	}
 }
 
@@ -47,6 +44,7 @@ struct ClientLandingPage: View {
 struct ShopComingSoon : View {
 	var body : some View {
 		VStack{
+			
 			Image(systemName:"bag")
 				.font(.system(size:50))
 			Text("Coming Soon...")
@@ -56,20 +54,25 @@ struct ShopComingSoon : View {
 }
 struct DisplayAllCompaigns: View {
 	var body : some View {
+		
 		VStack{
+			HStack{
+				Text("Live Trips")
+					.font(.title)
+					.fontWeight(.bold)
+				Spacer()
+				Image(systemName:"cart")
+					.font(.title2)
+			}.padding([.leading,.trailing,.top])
+			.padding(.bottom,0)
 			ScrollView(showsIndicators:false){
 				ForEach(1...6, id: \.self){ campaign in
 					CampaignCard()
 				}
 				
 			}
-			
-//			.navigationTitle("Live Trips")
-//			.navigationBarItems(
-//				trailing:Image(systemName:"cart.fill")
-//					.font(.system(size:25))
-//					.foregroundColor(.black))
 		}
+		
 	}
 }
 struct ClientLandingPage_Previews: PreviewProvider {
