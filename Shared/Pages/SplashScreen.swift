@@ -2,12 +2,13 @@
 import SwiftUI
 
 struct SplashScreen: View {
+	@ObservedObject var state : ApplicationState
     var body: some View {
 			VStack{
 				Spacer()
 			Image.appLogo
 				.resizable()
-				.frame(width:200, height:130)
+				.frame(width:190, height:130)
 				Text("DONKOMI")
 					.fontWeight(.semibold)
 					.font(.system(size:23))
@@ -18,12 +19,16 @@ struct SplashScreen: View {
 					.font(.system(size:13))
 					.foregroundColor(Color.appBlue)
 					.fontWeight(.semibold)
+			}.navigationBarBackButtonHidden(true)
+			.onAppear(){
+				
+				
 			}
-    }
+		}
 }
 
 struct SplashScreen_Previews: PreviewProvider {
     static var previews: some View {
-        SplashScreen()
+			SplashScreen(state: ApplicationState())
     }
 }

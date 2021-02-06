@@ -45,6 +45,7 @@
 		9E76C32325CC392A00953D94 /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C32225CC392A00953D94 /* SettingsPage.swift */; };
 		9E76C32825CC529100953D94 /* CartPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C32725CC529100953D94 /* CartPage.swift */; };
 		9E76C32E25CC6AF200953D94 /* OrderList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C32D25CC6AF200953D94 /* OrderList.swift */; };
+		9EA6942425CE5FC10049BDF4 /* ApplicationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA6942325CE5FC10049BDF4 /* ApplicationState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +89,7 @@
 		9E76C32225CC392A00953D94 /* SettingsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPage.swift; sourceTree = "<group>"; };
 		9E76C32725CC529100953D94 /* CartPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartPage.swift; sourceTree = "<group>"; };
 		9E76C32D25CC6AF200953D94 /* OrderList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderList.swift; sourceTree = "<group>"; };
+		9EA6942325CE5FC10049BDF4 /* ApplicationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 		9E39567525C8B25400EA6365 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				9EA6942225CE5F8E0049BDF4 /* State Objects */,
 				9E3956A225C8B46700EA6365 /* Utitlities */,
 				9E3956A125C8B45700EA6365 /* Components */,
 				9E3956A025C8B44E00EA6365 /* Pages */,
@@ -240,6 +243,14 @@
 				9E76C31E25CC2C1400953D94 /* CreateRoutine.swift */,
 			);
 			path = Forms;
+			sourceTree = "<group>";
+		};
+		9EA6942225CE5F8E0049BDF4 /* State Objects */ = {
+			isa = PBXGroup;
+			children = (
+				9EA6942325CE5FC10049BDF4 /* ApplicationState.swift */,
+			);
+			path = "State Objects";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -355,6 +366,7 @@
 				9E76C2D425CAF22B00953D94 /* ProductCard.swift in Sources */,
 				9E76C32825CC529100953D94 /* CartPage.swift in Sources */,
 				9E76C30925CBF15B00953D94 /* TabSelectors.swift in Sources */,
+				9EA6942425CE5FC10049BDF4 /* ApplicationState.swift in Sources */,
 				9E76C2C825CAD57000953D94 /* ProductListItem.swift in Sources */,
 				9E2097BC25C937DC0055D374 /* LoginPage.swift in Sources */,
 				9E76C2F625CBE6D500953D94 /* DonkomiApplicationPage.swift in Sources */,
