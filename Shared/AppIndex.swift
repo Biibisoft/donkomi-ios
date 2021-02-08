@@ -19,7 +19,9 @@ struct AppIndex: View {
 				
 				NavigationLink( "", destination: GuruLandingPage(), tag: Konstants.GURU_LANDING_PAGE, selection: $state.CURRENT_PAGE)
 				
-				NavigationLink( "", destination: CartPage(), tag: Konstants.COMPLETE_ORDER_PAGE, selection: $state.CURRENT_PAGE)
+				NavigationLink( "", destination: CartPage().navigationBarHidden(true)
+													.navigationBarTitle("")
+							 .navigationBarBackButtonHidden(true), tag: Konstants.COMPLETE_ORDER_PAGE, selection: $state.CURRENT_PAGE)
 				
 				NavigationLink( "", destination: AddToVenture(), tag: Konstants.GURU_ADD_TO_VENTURE_PAGE, selection: $state.CURRENT_PAGE)
 				

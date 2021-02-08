@@ -46,6 +46,7 @@
 		9E76C32825CC529100953D94 /* CartPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C32725CC529100953D94 /* CartPage.swift */; };
 		9E76C32E25CC6AF200953D94 /* OrderList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76C32D25CC6AF200953D94 /* OrderList.swift */; };
 		9EA6942425CE5FC10049BDF4 /* ApplicationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA6942325CE5FC10049BDF4 /* ApplicationState.swift */; };
+		9EAD5D7125CEE73D00A06285 /* SimpleTopNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAD5D7025CEE73D00A06285 /* SimpleTopNavBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +91,7 @@
 		9E76C32725CC529100953D94 /* CartPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartPage.swift; sourceTree = "<group>"; };
 		9E76C32D25CC6AF200953D94 /* OrderList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderList.swift; sourceTree = "<group>"; };
 		9EA6942325CE5FC10049BDF4 /* ApplicationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationState.swift; sourceTree = "<group>"; };
+		9EAD5D7025CEE73D00A06285 /* SimpleTopNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTopNavBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +214,7 @@
 				9E76C2D725CB022B00953D94 /* IconButtonCard.swift */,
 				9E76C30825CBF15B00953D94 /* TabSelectors.swift */,
 				9E76C30C25CC03DC00953D94 /* ShopCard.swift */,
+				9EAD5D7025CEE73D00A06285 /* SimpleTopNavBar.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -381,6 +384,7 @@
 				9E76C2DC25CBC74800953D94 /* ClientLandingPage.swift in Sources */,
 				9E2097C225C965300055D374 /* RegistrationPage.swift in Sources */,
 				9E76C32325CC392A00953D94 /* SettingsPage.swift in Sources */,
+				9EAD5D7125CEE73D00A06285 /* SimpleTopNavBar.swift in Sources */,
 				9E76C2CC25CAE45100953D94 /* Konstants.swift in Sources */,
 				9E76C31925CC101D00953D94 /* NewStock.swift in Sources */,
 				9E76C31225CC05C000953D94 /* NewVendorForm.swift in Sources */,

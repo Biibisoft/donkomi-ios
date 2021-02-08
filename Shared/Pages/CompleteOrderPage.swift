@@ -2,12 +2,27 @@
 import SwiftUI
 
 struct CompleteOrderPage: View {
+	@EnvironmentObject var state : ApplicationState
 	var body: some View {
 		
-		ScrollView{
-			OrderGroup()
-			OrderGroup()
-		}.navigationTitle("Complete Order")
+		VStack{
+			SimpleTopNavBar(title: "Complete Order", hasBackButton: true) {
+				guard state.PREVIOUS_PAGE == "" else {
+					state.CURRENT_PAGE = state.PREVIOUS_PAGE
+					return
+				}
+				
+			}
+//			OrderGroup()
+//			OrderGroup()
+			
+			ScrollView(showsIndicators:false){
+				OrderGroup()
+				OrderGroup()
+			}
+		}.navigationBarHidden(true)
+		.navigationBarTitle("")
+		.navigationBarBackButtonHidden(true)
 		
 	}
 }
