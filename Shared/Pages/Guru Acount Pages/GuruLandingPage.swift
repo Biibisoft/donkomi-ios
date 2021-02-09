@@ -42,12 +42,15 @@ struct GuruLandingPage: View {
 
 struct DisplayRoutines : View {
 	var body : some View {
-		ScrollView {
-			ForEach(1...5, id: \.self){
-				item in
-				RoutineCard()
+		VStack{
+			SimpleTopNavBar(title:"Routines")
+			ScrollView {
+				ForEach(1...5, id: \.self){
+					item in
+					RoutineCard()
+				}
 			}
-		}.navigationTitle("Routines")
+		}
 		
 	}
 }

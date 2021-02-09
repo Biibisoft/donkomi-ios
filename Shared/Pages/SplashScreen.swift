@@ -19,6 +19,7 @@ struct SplashScreen: View {
 				.font(.system(size:13))
 				.foregroundColor(Color.appBlue)
 				.fontWeight(.semibold)
+				.padding(.bottom)
 		}.navigationBarBackButtonHidden(true)
 		.onAppear(){
 			DispatchQueue.main.asyncAfter(deadline: .now() + 2) {

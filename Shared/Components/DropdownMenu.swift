@@ -7,12 +7,13 @@ struct DropdownMenu: View {
 		ZStack{
 			Rectangle()
 				.stroke(lineWidth:1)
-				.frame(height:55)
+				.frame(height:45)
 				.foregroundColor(Color.appBlue)
 				.overlay(
 					Button(action:{}, label:{
 						HStack{
 							Text("African Leadership University")
+								.font(.subheadline)
 							Spacer()
 							Image(systemName:"arrowtriangle.down.fill")
 						}.padding()
