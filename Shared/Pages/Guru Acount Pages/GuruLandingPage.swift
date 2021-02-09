@@ -5,32 +5,37 @@ struct GuruLandingPage: View {
 	var body: some View {
 		
 		TabView {
-			NavigationView{
-				DisplayRoutines()
-			}
-			.tabItem {
-				Image(systemName: "arrow.uturn.backward.circle")
-				Text("Routines")
-			}
 			
-			NavigationView{
-				OrderList()
-			}
-			.tabItem {
-				Image(systemName: "bag")
-				Text("Orders")
-			}
-			
-			NavigationView{
-				AddToVenture()
-			}
-			.tabItem {
-				Image(systemName: "plus")
-				Text("Management")
-			}
+			DisplayRoutines()
+				.navigationBarTitle("")
+				.navigationBarBackButtonHidden(true)
+				.navigationBarHidden(true)
+				.tabItem {
+					Image(systemName: "arrow.uturn.backward.circle")
+					Text("Routines")
+				}
 			
 			
-		}.navigationBarBackButtonHidden(true)
+			OrderList()
+				
+				.navigationBarTitle("")
+				.navigationBarBackButtonHidden(true)
+				.navigationBarHidden(true)
+				.tabItem {
+					Image(systemName: "bag")
+					Text("Orders")
+				}
+			
+			
+			AddToVenture()
+				.navigationBarTitle("")
+				.navigationBarBackButtonHidden(true)
+				.navigationBarHidden(true)
+				.tabItem {
+					Image(systemName: "plus")
+					Text("Management")
+				}
+		}
 	}
 }
 

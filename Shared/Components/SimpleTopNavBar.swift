@@ -34,8 +34,10 @@ struct SimpleTopNavBar: View {
 			})
 			
 		}
+		
 		.padding([.leading,.trailing,.top])
 		.padding(.bottom,0)
+		.background(Color.white)
 	}
 }
 

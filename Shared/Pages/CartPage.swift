@@ -4,22 +4,27 @@ import SwiftUI
 struct CartPage: View {
 	var body: some View {
 		TabView {
-			NavigationView{
-				CompleteOrderPage()
+			
+			CompleteOrderPage()
+				.navigationBarTitle("")
+				.navigationBarBackButtonHidden(true)
+				.navigationBarHidden(true)
 				
-			}
-			.tabItem {
-				Image(systemName:"cart.fill")
-				Text("Cart")
 				
-			}
-			NavigationView{
-				AwaitingOrders()
-			}
-			.tabItem {
-				Image(systemName:"clock")
-				Text("History")
-			}
+				.tabItem {
+					Image(systemName:"cart.fill")
+					Text("Cart")
+					
+				}
+			AwaitingOrders()
+				.navigationBarTitle("")
+				.navigationBarBackButtonHidden(true)
+				.navigationBarHidden(true)
+				
+				.tabItem {
+					Image(systemName:"clock")
+					Text("History")
+				}
 			
 		}
 	}

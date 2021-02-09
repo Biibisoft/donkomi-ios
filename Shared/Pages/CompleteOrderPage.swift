@@ -11,15 +11,11 @@ struct CompleteOrderPage: View {
 					state.CURRENT_PAGE = state.PREVIOUS_PAGE
 					return
 				}
-				
 			}
-//			OrderGroup()
-//			OrderGroup()
-			
 			ScrollView(showsIndicators:false){
 				OrderGroup()
 				OrderGroup()
-			}
+			}.frame(maxHeight:.infinity)
 		}.navigationBarHidden(true)
 		.navigationBarTitle("")
 		.navigationBarBackButtonHidden(true)
@@ -37,7 +33,7 @@ struct OrderGroup : View {
 		}
 		Button(action:{}, label:{
 			Text("FINISH ORDER")
-				.fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+				.fontWeight(.bold)
 				.foregroundColor(.white)
 				.padding()
 				.frame(maxWidth:.infinity)
